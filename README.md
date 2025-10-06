@@ -1,6 +1,7 @@
 # Real-ESRGAN 视频画质增强工具
 
 基于 Real-ESRGAN 技术的视频画质增强工具，可将低分辨率视频提升到更高分辨率。
+<img width="776" height="688" alt="捕获" src="https://github.com/user-attachments/assets/c2f082c1-e8c0-46df-b7e6-59352dc12973" />
 
 ## 功能特性
 
@@ -16,7 +17,7 @@
 - 至少 4GB 内存
 - NVIDIA/AMD/Intel GPU（支持 Vulkan）
 
-## 快速开始
+##快速开始
 
 ### 1. 启动程序
 
@@ -27,13 +28,13 @@ clean.bat - 清理 tmp_frames 和 out_frames 文件夹的内容。
 
 程序启动后将打开图形界面：
 
-1. 点击"浏览"按钮选择要增强的视频文件
+1. 点击“浏览”按钮选择要增强的视频文件
 2. 根据需要调整增强参数：
-   - **增强模型**: 选择适合的模型
-     - `realesr-animevideov3`: 适用于动漫视频
-     - `realesrgan-x4plus`: 适用于一般视频
-     - `realesrgan-x4plus-anime`: 适用于动漫图像
-   - **缩放因子**: 选择放大倍数（2x, 3x, 4x）
+   - **增强模型**：选择合适的模型
+     - `realesr-animevideov3`：适用于动漫视频
+     - `realesrgan-x4plus`：适用于一般视频
+     - `realesrgan-x4plus-anime`：适用于动漫图像
+   - **缩放因子**：选择放大倍数（2x, 3x, 4x）
    - **输出格式**: 选择帧图像格式（jpg, png）
 3. 点击"开始增强"按钮执行处理
 
