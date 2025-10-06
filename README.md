@@ -1,6 +1,7 @@
 # Real-ESRGAN 视频画质增强工具
 
 基于 Real-ESRGAN 技术的视频画质增强工具，可将低分辨率视频提升到更高分辨率。
+
 <img width="776" height="688" alt="捕获" src="https://github.com/user-attachments/assets/c2f082c1-e8c0-46df-b7e6-59352dc12973" />
 
 ## 功能特性
@@ -35,31 +36,31 @@ clean.bat - 清理 tmp_frames 和 out_frames 文件夹的内容。
      - `realesrgan-x4plus`：适用于一般视频
      - `realesrgan-x4plus-anime`：适用于动漫图像
    - **缩放因子**：选择放大倍数（2x, 3x, 4x）
-   - **输出格式**: 选择帧图像格式（jpg, png）
-3. 点击"开始增强"按钮执行处理
+   - **输出格式**：选择帧图像格式（jpg, png）
+3. 点击“开始增强”按钮执行处理
 
-## 处理流程
+##处理流程
 
-1. **提取帧**: 使用 ffmpeg 从视频中提取帧保存到[tmp_frames]文件夹
-2. **增强帧**: 使用 Real-ESRGAN 增强帧，结果保存在[out_frames]文件夹
-3. **合并视频**: 将增强后的帧合并为视频，保持原始帧率
-4. **输出结果**: 增强后的视频保存在桌面，文件名格式为 `enhanced_原文件名_YYYYMMDD_HHMMSS.扩展名`
+1. **提取帧**：使用 ffmpeg 从视频中提取帧保存到[tmp_frames]文件夹
+2. **增强帧**：使用 Real-ESRGAN 增强帧，结果保存在[out_frames]文件夹
+3. **合并视频**：将增强后的帧合并为视频，保持原始帧率
+4. **输出结果**：增强后的视频保存在桌面，文件名格式为 `enhanced_原文件名_YYYYMMDD_HHMMSS.扩展名`
 
 ## 支持的视频格式
 
 - MP4
-- AVI
+- 电影
 - MKV
-- MOV
-- WMV
+- 视频
+- Windows Media Video
 - FLV
-- WEBM
+- 网络视频
 
 ## 播放器兼容性
 
 增强后的视频已针对主流播放器进行了优化：
 
-- ✅ **PotPlayer** - 完全兼容
+-✅**PotPlayer** - 完全兼容
 - ✅ **QQ播放器** - 兼容（已在最新版本中修复）
 - ✅ **VLC Media Player** - 完全兼容
 - ✅ **Windows Media Player** - 兼容
