@@ -52,7 +52,7 @@ clean.bat - 清理 tmp_frames 和 out_frames 文件夹的内容。
 - 电影
 - MKV
 - 视频
-- Windows Media Video
+- Windows 媒体视频
 - FLV
 - 网络视频
 
@@ -60,7 +60,7 @@ clean.bat - 清理 tmp_frames 和 out_frames 文件夹的内容。
 
 增强后的视频已针对主流播放器进行了优化：
 
--✅**PotPlayer** - 完全兼容
+- ✅**PotPlayer** - 完全兼容
 - ✅ **QQ播放器** - 兼容（已在最新版本中修复）
 - ✅ **VLC Media Player** - 完全兼容
 - ✅ **Windows Media Player** - 兼容
